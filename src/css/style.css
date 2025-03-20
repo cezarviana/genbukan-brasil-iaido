@@ -35,7 +35,8 @@ body{
 .header .nav .menu{
     display: flex;
     justify-content: space-around;
-    color: #000;
     top:180px;
-    height: 20px;
+    height: 40px;
+    font-weight: 700;
+    color: #000;
 }
