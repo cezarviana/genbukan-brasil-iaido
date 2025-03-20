@@ -3,20 +3,24 @@ body{
     background-color: antiquewhite;
 }
 
-.header-banner{
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header .header-banner{
     display: flex;
     top: 0;
     background-color: #000;
     height: 20vh;
 }
 
-.header-banner .genbukan-logo-kanji{
+.header .header-banner .genbukan-logo-kanji{
     align-self: center;
     width: 10%;
-   justify-content: end;
 }
 
-.header-banner .title{
+.header .header-banner .title{
     display: flex;
     width: 60%;
     height: 100%;
@@ -28,11 +32,10 @@ body{
     font-size: 48px;
 }
 
-.header-banner .menu{
+.header .nav .menu{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #fff;
+    justify-content: space-around;
+    color: #000;
     top:180px;
     height: 20px;
 }
