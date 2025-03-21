@@ -1,6 +1,11 @@
+html{
+    height: 100%;
+}
+
 body{
     font-family: "helvetica", sans-serif;
-    background-color: antiquewhite;
+    background-color: #fff;
+    height: 100%;
 }
 
 .header{
@@ -10,25 +15,29 @@ body{
 
 .header .header-banner{
     display: flex;
+    justify-content: space-around;
     top: 0;
     background-color: #000;
-    height: 20vh;
+    height: 30vh;
+    padding: 10px;
 }
 
 .header .header-banner .genbukan-logo-kanji{
     align-self: center;
-    width: 10%;
+    justify-content: end;
+    text-align: end;
+    height:100%;
 }
 
 .header .header-banner .title{
     display: flex;
-    width: 60%;
+    width: 80%;
     height: 100%;
     color: #fff;
-    
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-weight: 800;
     font-size: 48px;
 }
 
@@ -37,6 +46,51 @@ body{
     justify-content: space-around;
     top:180px;
     height: 40px;
-    font-weight: 700;
     color: #000;
+    padding: 15px;
 }
+
+.nav .menu a{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--cinza-medio, grey);
+    color: #fff;
+    border-radius: 15px;;
+    font-weight: 600;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .genbukan-brasil{
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(240, 240, 240);    
+}
+
+.main .genbukan-brasil h2{
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.main .genbukan-brasil p{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.footer .footer-text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+    bottom: 0;
+}
+
+
