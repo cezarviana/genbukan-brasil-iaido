@@ -1,5 +1,9 @@
 :root{
-    --max-width-size: 1920px;
-    --cinza-escuro: #0C0C0D;
-    --cinza-medio: #282626;
+    --black: rgb(0, 0, 0);
+    --dark-gray: rgb(39, 40, 41);
+    --gray: rgb(93, 93, 93);
+    --light-gray: rgb(216, 217, 218);
+    --cream: rgb(255, 246, 224);
+    --white: rgb(255, 255, 255);
 }
+
