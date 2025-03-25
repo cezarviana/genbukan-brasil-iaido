@@ -1,6 +1,6 @@
 body{
     background-color: var(--white);
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 /*HEADER*/
@@ -22,7 +22,7 @@ body{
     align-items: center;
     text-align: center;
     font-weight: 800;
-    font-size: 56px;
+    font-size: 5.6rem;
     padding: 20px;
 }
 
@@ -57,7 +57,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: var(--light-gray);
-    bottom: 0;
+    height: 1%;
 }
 
 .footer .footer-social{
@@ -71,7 +71,7 @@ body{
 
 .footer-social .social h3{
     font-weight: 700;
-    font-size: 28px;
+    font-size: 2.8rem;
     margin: 20px;
 }
 
@@ -90,7 +90,7 @@ body{
 }
 
 .footer-social .social i{
-    font-size: 30px;
+    font-size: 3.0rem;
 }
 
 .footer-social .social p{
@@ -98,14 +98,15 @@ body{
 }
 
 .footer .footer-social img{
-    border-radius: 50%;
-    max-width: 15%;
+    width: 15%;
+    height: 15%;
     margin: 20px;
 }
 
-.footer .text{
+.footer .footer-text{
     justify-content: center;
-    margin: 20px;
+    text-align: center;
+    margin: 10px;
 }
 
 
