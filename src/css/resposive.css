@@ -1,0 +1,37 @@
+  /* 
+@media(max-width: 720px) {
+
+    .main .pages .page{
+
+        width: 350px;
+        height: 400px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .main .page img{
+        width: 225px;
+    }
+
+}
+
+@media(max-width: 1200px) {
+
+    .nav .menu a{
+  
+    trocar por MJER
+   
+    }
+
+}
+ */
+@media(min-width: 2730px) {
+
+    .header .header-banner .title{
+        font-size: 120px;
+    }
+
+    .main .pages{
+        max-width: 2300px;
+    }
+}
