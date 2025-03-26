@@ -39,6 +39,10 @@
     display: none;
 }
 
+.header .hamburguer{
+    display: none;
+}
+
 /*MENU HAMBURGUER ANIMATION*/
 
 .header input:checked ~ label .hamburguer{
@@ -58,6 +62,10 @@
 /*MENU HAMBURGUER RESPONSIVE*/
 
 @media(max-width: 1260px){
+    .header .hamburguer{
+        display: block;
+    }
+
     .header .menu{
         display: block;
     }
