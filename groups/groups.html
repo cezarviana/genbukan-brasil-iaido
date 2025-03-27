@@ -17,118 +17,170 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <script type="text/javascript" src="../src/js/header-footer.js"></script>
+    <script type="text/javascript" src="../src/js/header-footer.js"></script>
 
-        <link rel="stylesheet" href="../src/css/reset.css">
-        <link rel="stylesheet" href="../src/css/variables.css">
-        <link rel="stylesheet" href="../header/header.css">
-        <link rel="stylesheet" href="../footer/footer.css">
-        <link rel="stylesheet" href="./grupos.css">
-        <link rel="stylesheet" href="../src/css/resposive.css">
-        <link rel="stylesheet" href="../header/menu.css">     
-        
-        <link rel="shortcut icon" href="../src/images/others/genbukan-mon-logo - Final.jpg" type="image/x-icon">
-        
-        <link rel="shortcut icon" href="../src/images/others/genbukan-mon-circle-logo.ico" type="image/x-icon">
-        
-        <link rel="stylesheet" href="../header/header.html">
-    </head>
-    
-    <body>
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/variables.css">
+    <link rel="stylesheet" href="../header/header.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="./groups.css">
+    <link rel="stylesheet" href="../src/css/resposive.css">
+    <link rel="stylesheet" href="../header/menu.css">
 
-        <div id="content-header"></div>
-        
+    <link rel="shortcut icon" href="../src/images/others/genbukan-mon-logo - Final.jpg" type="image/x-icon">
+
+    <link rel="shortcut icon" href="../src/images/others/genbukan-mon-circle-logo.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../header/header.html">
+</head>
+
+<body>
+
+    <div id="content-header"></div>
+
     </header>
-  
+
     <main class="main">
 
         <section class="members">
-            <h1 class="title">Grupos Membros</h1>
+            <h1 class="title">Grupos Membro</h1>
             <ul>
                 <li class="member">
                     <div class="member-photo">
                         <img src="../src/images/photos/gustavo-gouveia.png" alt="Gustavo Gouveia embainhando a espada">
-                        <p>Gustavo Gouveia (5º Dan)</p>
+
                     </div>
                     <div class="member-info">
+                        <h2>Gustavo Gouveia (5º Dan)</h2>
                         <h2>Recife (PE)</h2>
                         <h3>Endereço</h3>
                         <p>Treinos Online</p>
                         <h3>Treinos</h3>
                         <p>Sábado: 07:00 - 08:00</br>
-                            Domingo:  07:00 - 08:00</p>
+                            Domingo: 07:00 - 08:00</p>
                         <h3>Contato</h3>
-                        <p>kendorecife@gmail.com</p>  
+                        <p>kendorecife@gmail.com</p>
+                        <div class="member-social">
+                            <a href="" onclick="sendEmailGouveia()">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <a href="https://www.facebook.com/groups/349118115740063/user/1164216241/" target="blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
                     </div>
                 </li>
+
                 <li class="member">
                     <div class="member-photo">
-                        <img src="../src/images/photos/ricardo-meira.png" alt="Ricardo Meira em seiza">
-                        <p>Ricardo Meira (4º Dan)</p>
+                        <img id="gouveia" src="../src/images/photos/ricardo-meira.png" alt="Ricardo Meira em seiza">
                     </div>
                     <div class="member-info">
+                        <h2>Ricardo Meira (4º Dan)</h2>
                         <h2>Brasília (DF)</h2>
                         <h3>Endereço</h3>
                         <p>Clube Cultural e Recreativo Nipo Brasileiro</br>
-                        St. de Clubes Esportivos Sul Lote 1 - Brasília, DF, 70200-001</p>
+                            St. de Clubes Esportivos Sul Lote 1 - Brasília, DF, 70200-001</p>
                         <h3>Treinos</h3>
                         <p>Sexta-Feira: 18:00 - 20:00</p>
                         <h3>Contato</h3>
-                        <p>(61) 98165-9111 / meira.reis@gmail.com</p>  
+                        <p>(61) 98165-9111 / meira.reis@gmail.com</p>
+                        <div class="member-social">
+                            <a href="" onclick="sendEmailMeira()">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <a href="https://www.facebook.com/groups/349118115740063/user/100000566753815/"
+                                target="blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
                     </div>
                 </li>
+
                 <li class="member">
                     <div class="member-photo">
-                        <img src="" alt="">
-                        <p>Gustavo Gouveia (5º Dan)</p>
+                        <img src="../src/images/photos/jose-anchieta.png"
+                            alt="José de Anchieta em posição de espera, em pé">
                     </div>
                     <div class="member-info">
-                        <h2>Recife (PE)</h2>
+                        <h2>José de Anchieta (4º Dan)</h2>
+                        <h2>São Carlos (SP)</h2>
                         <h3>Endereço</h3>
                         <p>Treinos Online</p>
                         <h3>Treinos</h3>
-                        <p>Sábado: 07:00 - 08:00 </br>Domingo:  07:00 - 08:00</p>
+                        <p>Quinta-Feira: 21:00 - 22:00 (On line)</br>Sábado: 10:00 - 12:00 (Presencial)</p>
                         <h3>Contato</h3>
-                        <p>kendorecife@gmail.com</p>  
+                        <p>(16) 98163-5088 / josear@ufscar.br</p>
+                        <div class="member-social">
+                            <a href="" onclick="sendEmailAnchieta()">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <a href="https://www.facebook.com/groups/349118115740063/user/822032479/" target="blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
                     </div>
                 </li>
+              
                 <li class="member">
                     <div class="member-photo">
-                        <img src="" alt="">
-                        <p>Gustavo Gouveia (5º Dan)</p>
+                        <img src="../src/images/photos/renato-alcantara.png"
+                            alt="Renato Alcantara embainhando a espada">
                     </div>
                     <div class="member-info">
-                        <h2>Recife (PE)</h2>
+                        <h2>Renato Alcantara (4º Dan)</h2>
+                        <h2>Salvador (BA)</h2>
                         <h3>Endereço</h3>
-                        <p>Treinos Online</p>
+                        <p>Sede da Guarda Civil Municipal de Salvador (Av. San Martin, ao Lado do Colégio Luís Eduardo
+                            Magalhães)</p>
                         <h3>Treinos</h3>
-                        <p>Sábado: 07:00 - 08:00 </br>Domingo:  07:00 - 08:00</p>
+                        <p>Terças e Quintas:</br>18:00 - 20:00 (Iaido) </br>20:00 - 21:00 (Kendo)</p>
                         <h3>Contato</h3>
-                        <p>kendorecife@gmail.com</p>  
+                        <p>(71) 99121-0309 / alcantaracqc@gmail.com</p>
+                        <div class="member-social">
+                            <a href="" onclick="sendEmailAlcantara()">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <a href="https://www.facebook.com/groups/349118115740063/user/1781404853/" target="blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
                     </div>
                 </li>
+
                 <li class="member">
                     <div class="member-photo">
-                        <img src="" alt="">
-                        <p>Gustavo Gouveia (5º Dan)</p>
+                        <img src="../src/images/photos/alexandre-borges.png"
+                            alt="Alexandre Borges posando para foto com sua espada">
                     </div>
                     <div class="member-info">
-                        <h2>Recife (PE)</h2>
+                        <h2>Alexandre Borges (2º Dan)</h2>
+                        <h2>Porto Alegre (RS)</h2>
                         <h3>Endereço</h3>
-                        <p>Treinos Online</p>
+                        <p></p>
                         <h3>Treinos</h3>
-                        <p>Sábado: 07:00 - 08:00 </br>Domingo:  07:00 - 08:00</p>
+                        <p></p>
                         <h3>Contato</h3>
-                        <p>kendorecife@gmail.com</p>  
+                        <p>aleborges007@hotmail.com</p>
+                        <div class="member-social">
+                            <a href="" onclick="sendEmailBorges()">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <a href="https://www.facebook.com/groups/349118115740063/user/1318070528/" target="blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
                     </div>
                 </li>
+
+
             </ul>
 
         </section>
 
     </main>
 
-    
+
     <footer class="footer">
 
         <div id="content-footer"></div>

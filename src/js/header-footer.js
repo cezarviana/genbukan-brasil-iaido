@@ -15,6 +15,28 @@ fetch('../footer/footer.html')
 
 /* footer email*/
 
-function sendEmail() {
+function sendEmailGenbukanBrasilDf() {
     window.open('mailto:genbukanbrasildf@gmail.com')
+}
+
+/*GROUPS emails*/
+
+function sendEmailGouveia() {
+    window.open('mailto:kendorecife@gmail.com')
+}
+
+function sendEmailMeira() {
+    window.open('mailto:meira.reis@gmail.com')
+}
+
+function sendEmailAnchieta() {
+    window.open('mailto:josear@ufscar.br')
+}
+
+function sendEmailAlcantara() {
+    window.open('mailto:alcantaracqc@gmail.com')
+}
+
+function sendEmailBorges() {
+    window.open('mailto:aleborges007@hotmail.com')
 }
