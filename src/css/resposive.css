@@ -1,5 +1,5 @@
   /* 
-@media(max-width: 720px) {
+@media(max-width: 720px){
 
     .main .pages .page{
 
@@ -15,7 +15,7 @@
 
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1200px){
 
     .nav .menu a{
   
@@ -25,7 +25,7 @@
 
 }
  */
-@media(min-width: 2730px) {
+@media(min-width: 2730px){
 
     .header .header-banner .title{
         font-size: 120px;
