@@ -19,12 +19,12 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main .intro{
+.main .intro, .ryu-tree{
     display: flex;
     justify-content: center;
     text-align: justify;
     flex-direction: column;
-    width: 50%;
+    width: 65%;
     padding: 60px;
     margin: 20px;
     background-color: var(--light-gray);
@@ -33,13 +33,13 @@
 }
 
 .main .intro p{
-    text-align: justify;
+    text-align: center;
     text-indent: 30px;
     line-height: 35px;
     font-size: 2.0rem;
 }
 
-.main .section{
+.main .sensei{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,8 +53,17 @@
 }
 
 .main .sensei div .sensei-photo{
-    align-items: center;
+    display: flex;
     width: 45vw;
+}
+
+.main .sensei div .photo-right{
+    display: flex;
+    justify-content: end;
+}
+
+.sensei div .sensei-photo img{  
+    max-height: 600px;
     box-shadow: 1px 3px 5px var(--black);
 }
 
@@ -64,6 +73,9 @@
     align-items: center;
     padding: 20px;
     width: 45vw;
+    text-indent: 30px;
+    line-height: 35px;
+    font-size: 2.0rem;
     box-shadow: 1px 3px 5px var(--black);
 }
 
@@ -74,7 +86,18 @@
     text-align: center;
 }
 
+.sensei div .sensei-text p{
+
+}
+
 .sensei div .sensei-text {
     text-align: center;
+}
+
+.main .ryu-tree li{
+    list-style: decimal;
+    text-indent: 30px;
+    line-height: 35px;
+    font-size: 2.0rem;
 }
 
