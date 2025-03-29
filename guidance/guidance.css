@@ -1,4 +1,11 @@
-.main h1{
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,3 +18,63 @@
     margin: 60px 20px;
     box-shadow: 1px 3px 5px var(--black);
 }
+
+.main .intro{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    width: 50%;
+    padding: 60px;
+    margin: 20px;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.main .intro p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 35px;
+    font-size: 2.0rem;
+}
+
+.main .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.main .sensei div{
+    display: flex;
+    flex-direction: row;
+}
+
+.main .sensei div .sensei-photo{
+    align-items: center;
+    width: 45vw;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.main .sensei div .sensei-text{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 45vw;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.sensei div .sensei-text h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sensei div .sensei-text {
+    text-align: center;
+}
+
