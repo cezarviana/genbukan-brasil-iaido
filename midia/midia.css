@@ -1,3 +1,10 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .main h1{
     display: flex;
     justify-content: center;
@@ -10,4 +17,33 @@
     font-weight: 700;
     margin: 60px 20px;
     box-shadow: 1px 3px 5px var(--black);
+}
+
+.main section {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    width: 70%;
+    padding: 60px;
+    margin: 20px;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.main section .video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.main section .video h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;  
 }

@@ -72,7 +72,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 45vw;
+    max-width: 45vw;
     text-indent: 30px;
     line-height: 35px;
     font-size: 2.0rem;
@@ -84,10 +84,6 @@
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
-}
-
-.sensei div .sensei-text p{
-
 }
 
 .sensei div .sensei-text {
