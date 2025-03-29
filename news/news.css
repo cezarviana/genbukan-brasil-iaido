@@ -55,6 +55,8 @@
 
 /*INSERT*/
 .search-results {
+    display: flex;
+    flex-direction: column-reverse;
     width: 60rem;  
     overflow-y: auto;
     padding: 1rem;
@@ -78,14 +80,26 @@
 }
 
 .item-result img {
-    margin: 20px;
-    width: 50%;
+    margin: 0px 20px;
+    width: 35%;
+}
+
+.item-result #img-title {
+    position: relative;
+    margin: 0px;
+    bottom: 30px;
+    font-size: 1.6rem;
+    text-indent: 0px;
 }
 
 .item-result h2 {
     font-size: 3rem;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.item-result .news-date{
+    text-indent: 0px;
 }
 
 .item-result p {
@@ -95,4 +109,39 @@
     font-size: 2.0rem;
     padding: 20px;
 }
+
+.main .carrossel ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .carrossel ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    width: 30vw;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.main .carrossel ul li h2{
+    text-align: center;
+    background-color: var(--light-gray);
+    box-shadow: 1px 3px 5px var(--black);
+    box-shadow: none;
+    padding: 20px;
+}
+
+.main .carrossel ul li p{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
 
