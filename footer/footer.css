@@ -56,3 +56,14 @@
     text-align: center;
     margin: 10px;
 }
+
+/*RESPONSIVE*/
+
+
+@media(max-width: 830px){
+
+    .footer .footer-social img{
+        display: none;
+        
+    }
+}

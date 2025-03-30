@@ -27,10 +27,6 @@
  */
 @media(min-width: 2730px){
 
-    .header .header-banner .title{
-        font-size: 120px;
-    }
-
     .main .pages{
         max-width: 2300px;
     }
