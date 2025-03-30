@@ -18,7 +18,7 @@
     align-items: center;
     text-align: center;
     font-weight: 800;
-    font-size: 6.4rem;
+    font-size: 8rem;
     padding: 20px;
 }
 
@@ -50,7 +50,6 @@
 }
 
 /*RESPONSIVE*/
-
 
 @media(max-width: 830px){
 
