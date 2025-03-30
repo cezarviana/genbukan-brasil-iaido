@@ -1,16 +1,23 @@
 let articles = [
-    {   titulo : "Título",
-        image : "SRC",
-        date : "24/4/3030",
-        content : "lorem",
-        link : "src",
-        tags: "notícias noticia iaido "
+    {   number : "1",
+        title : "",
+        image : "",
+        imageAlt : "",
+        imageTitle :"",
+        date : "",
+        text : "",
+        link : "",
+        tags: "artigo"
     },
-    {   titulo : "Título",
-        image : "SRC",
-        date : "24/4/3030",
-        content : "lorem",
-        link : "src",
-        tags: "notícias noticia iaido "
+    {   number : "2",
+        title : "",
+        image : "",
+        imageAlt : "",
+        imageTitle :"",
+        date : "",
+        text : "",
+        link : "",
+        tags: "artigo"
     },
+
     ]
