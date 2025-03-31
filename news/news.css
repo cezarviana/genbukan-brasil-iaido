@@ -20,7 +20,7 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main section{
+.main section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@
     padding: 20px;
 }
 
-.main section input{
+.main section input {
     border-radius: 15px;
     width: 250px;
     font-size: 1.6rem;
@@ -38,7 +38,7 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main section button{
+.main section button {
     background-color: var(--gray);
     color: var(--white);
     width: 150px;
@@ -48,7 +48,7 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main section button:hover{
+.main section button:hover {
     background-color: var(--dark-gray);
     color: var(--white); 
     transition: 0.3s ease-in-out;
@@ -98,7 +98,7 @@
     margin: 20px;
 }
 
-.item-result .news-date{
+.item-result .news-date {
     text-indent: 0px;
 }
 
@@ -110,14 +110,14 @@
     padding: 20px;
 }
 
-.main .carrossel ul{
+.main .carrossel ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.main .carrossel ul li{
+.main .carrossel ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,7 +129,7 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main .carrossel ul li h2{
+.main .carrossel ul li h2 {
     text-align: center;
     background-color: var(--light-gray);
     box-shadow: 1px 3px 5px var(--black);
@@ -137,12 +137,20 @@
     padding: 20px;
 }
 
-.main .carrossel ul li p{
+.main .carrossel ul li p {
     text-align: justify;
     text-indent: 20px;
     line-height: 25px;
     font-size: 1.6rem;
     padding: 20px;
+}
+
+.main .carrossel ul li h2:empty {
+    display: none;
+}
+
+.main .carrossel ul li p:empty {
+    display: none;
 }
 
 

@@ -33,22 +33,22 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main section div{
+.main section div {
     flex-direction: row;
     margin-bottom: 40px;
 }
 
-.main section div a{
+.main section div a {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 20%;
 }
 
-.main section div a i{
+.main section div a i {
     margin-right: 10px;
 }
 
-section div h2{
+section div h2 {
     margin-bottom: 10px;
 }

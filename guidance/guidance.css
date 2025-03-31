@@ -1,11 +1,11 @@
-.main{
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.main .title{
+.main .title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main .intro, .ryu-tree{
+.main .intro, .ryu-tree {
     display: flex;
     justify-content: center;
     text-align: justify;
@@ -33,14 +33,14 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main .intro p{
+.main .intro p {
     text-align: center;
     text-indent: 30px;
     line-height: 35px;
     font-size: 2.0rem;
 }
 
-.main .sensei{
+.main .sensei {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,27 +48,27 @@
     margin: 40px;
 }
 
-.main .sensei div{
+.main .sensei div {
     display: flex;
     flex-direction: row;
 }
 
-.main .sensei div .sensei-photo{
+.main .sensei div .sensei-photo {
     display: flex;
     width: 45vw;
 }
 
-.main .sensei div .photo-right{
+.main .sensei div .photo-right {
     display: flex;
     justify-content: end;
 }
 
-.sensei div .sensei-photo img{  
+.sensei div .sensei-photo img {  
     max-height: 600px;
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main .sensei div .sensei-text{
+.main .sensei div .sensei-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@
     text-align: center;
 }
 
-.main .ryu-tree li{
+.main .ryu-tree li {
     list-style: decimal;
     text-indent: 30px;
     line-height: 35px;

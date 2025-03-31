@@ -1,6 +1,6 @@
 /*HEADER*/
 
-.header .header-banner{
+.header .header-banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,7 +9,7 @@
     padding: 10px;
 }
 
-.header .header-banner .title{
+.header .header-banner .title {
     display: flex;
     width: 80%;
     height: 100%;
@@ -22,11 +22,11 @@
     padding: 20px;
 }
 
-.header .header-banner img{
+.header .header-banner img {
     height: 100%;
 }
 
-.header .nav ul{
+.header .nav ul {
     display: flex;
     justify-content: space-around;
     top:180px;
@@ -35,14 +35,14 @@
     margin: 20px;
 }
 
-.header .nav ul a{
+.header .nav ul a {
     margin: 10px;
     padding: 10px;
     font-weight: 700;
     border-radius: 5px;
 }
 
-.header .nav ul a:hover{
+.header .nav ul a:hover {
     background-color: var(--gray);
     color: var(--white);
     transition: 0.3ms, ease-in-out;
@@ -51,7 +51,7 @@
 
 /*RESPONSIVE*/
 
-@media(max-width: 830px){
+@media(max-width: 830px) {
 
     .header .header-banner{
         height: 20vh;
@@ -62,7 +62,7 @@
     }
 }
 
-@media(min-width: 2730px){
+@media(min-width: 2730px) {
 
     .header .header-banner .title{
         font-size: 120px;

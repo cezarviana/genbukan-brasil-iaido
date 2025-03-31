@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -7,19 +7,19 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%; /* 10px */
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--black);
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-img{
+img {
     max-width: 100%;
 }

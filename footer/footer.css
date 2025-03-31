@@ -1,6 +1,6 @@
 /*FOOTER*/
 
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
     height: 1%;
 }
 
-.footer .footer-social{
+.footer .footer-social {
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -17,13 +17,13 @@
     padding: 20px;
 }
 
-.footer-social .social h3{
+.footer-social .social h3 {
     font-weight: 700;
     font-size: 2.8rem;
     margin: 20px;
 }
 
-.footer-social .social a{
+.footer-social .social a {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,26 +32,26 @@
     margin: 30px;
 }
 
-.footer-social .social a:hover{
+.footer-social .social a:hover {
     color: var(--gray);
     transition: 0.3s, ease-in-out;
 }
 
-.footer-social .social i{
+.footer-social .social i {
     font-size: 3.0rem;
 }
 
-.footer-social .social p{
+.footer-social .social p {
     margin-left: 20px;
 }
 
-.footer .footer-social img{
+.footer .footer-social img {
     width: 240px;
     margin: 20px;
     
 }
 
-.footer .footer-text{
+.footer .footer-text {
     justify-content: center;
     text-align: center;
     margin: 10px;
@@ -60,7 +60,7 @@
 /*RESPONSIVE*/
 
 
-@media(max-width: 830px){
+@media(max-width: 830px) {
 
     .footer .footer-social img{
         display: none;
