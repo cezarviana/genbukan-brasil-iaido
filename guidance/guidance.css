@@ -92,7 +92,6 @@
 }
 
 .main .ryu-tree li {
-    list-style: decimal;
     text-indent: 30px;
     line-height: 35px;
     font-size: 2.0rem;
