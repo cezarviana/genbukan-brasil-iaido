@@ -7,8 +7,8 @@
 
 .header .hamburguer {
     background-color: #000;
-    position: relative;
     display: block;
+    position: relative;
     width: 30px;
     height: 3px;
     top: 29px;
@@ -92,7 +92,7 @@
         padding: 20px;
     }
 
-    .header nav ul a {
+    .header nav ul a{
         display: block;
         text-align: center;
         padding: 20px;

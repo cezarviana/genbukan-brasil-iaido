@@ -14,7 +14,7 @@
     color: var(--white);
     border-radius: 5px;
     padding: 20px;
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 700;
     margin: 20px;
     box-shadow: 1px 3px 5px var(--black);
@@ -80,8 +80,8 @@
 }
 
 .item-result img {
-    margin: 0px 20px;
-    width: 35%;
+    margin: 40px 20px 0px 20px;
+    width: 60%;
 }
 
 .item-result #img-title {
@@ -96,6 +96,7 @@
     font-size: 3rem;
     font-weight: 800;
     margin: 20px;
+    text-align: center;
 }
 
 .item-result .news-date {
@@ -110,11 +111,14 @@
     padding: 20px;
 }
 
+/* ÚLTIMAS NOTÍCIAS */
+
 .main .carrossel ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 .main .carrossel ul li {
@@ -123,7 +127,6 @@
     justify-content: center;
     align-items: center;
     background-color: var(--light-gray);
-    max-width: 70vw;
     border-radius: 5px;
     margin: 20px;
     box-shadow: 1px 3px 5px var(--black);
@@ -153,4 +156,84 @@
     display: none;
 }
 
+/* RESPONSIVE */
 
+@media(max-width: 830px) {
+
+    .main h1 {
+        padding: 15px;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .main section input {
+        font-size: 1.6rem;
+        padding: 15px;
+        margin: 20px;
+    }
+    
+    .main section button {
+        width: 150px;
+        font-size: 2rem;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    .item-result {
+        width: 90%;
+        height: 100%;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .item-result img {
+        width: 60%;
+    }
+    
+    .item-result #img-title {
+        position: relative;
+        margin: 0px 20px;
+        margin-bottom: 20px;
+        bottom: 0px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    
+    .item-result h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0px;
+    }
+    
+    .item-result .news-date {
+        text-indent: 0px;
+        margin: 20px;
+    }
+    
+    .item-result p {
+        line-height: 30px;
+        font-size: 1.6rem;
+        padding: 0px;
+    }
+    
+
+    .main .carrossel ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .main .carrossel ul li h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0px;
+    }
+    
+    .main .carrossel ul li p {
+        line-height: 30px;
+        font-size: 1.6rem;
+        padding: 20px;
+    }
+
+}

@@ -77,10 +77,46 @@
 }
 
 .main .mjer-text .img-big img {
-    width: 40%;
+    width: 50%;
 }
 
 .main .mjer-text .mjer-img p {
     margin-bottom: 40px;
     text-align: center;
+}
+
+/* RESPONSIVE */
+
+
+@media(max-width: 830px) {
+
+    .main h1 {
+        padding: 15px;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .main .mjer-text {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .main .mjer-text h1 {
+        font-size: 3rem;
+    }
+
+    .main .mjer-text .title-h2-big {
+        margin: 40px 0px;
+    }
+
+    .main .mjer-text .img-big img {
+        width: 60%;
+    }
+
+    .main .mjer-text p {
+        font-size: 1.6rem;
+        line-height: 30px;
+    }
+
 }
