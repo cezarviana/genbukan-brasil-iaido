@@ -114,6 +114,7 @@
     .main .pages .page {
         height: 200px;
         width: 80%;
+        max-width: 380px;
         min-width: 300px;
     }
 
