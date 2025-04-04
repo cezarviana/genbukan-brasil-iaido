@@ -1,3 +1,4 @@
+// 1. searchField entry
 function newsSearch() {
     let section = document.getElementById("search-results");
 
@@ -8,6 +9,7 @@ function newsSearch() {
         return
     }
 
+// 2. searchField to lowerCase (because search is case sensitive)
     searchField = searchField.toLowerCase()
 
     let results = "";
@@ -20,8 +22,11 @@ function newsSearch() {
     let link = "";
     let tags = "";
 
+
+// 3. Reverse news position (newest news first)
     newsS = newsS.reverse()
 
+// 4. newsS to lowerCase (because search is case sensitive)
     for (let news of newsS) {
         title = news.title.toLowerCase()
         image = news.image.toLowerCase()
@@ -32,7 +37,11 @@ function newsSearch() {
         link = news.link.toLowerCase()
         tags = news.tags.toLowerCase()
 
+// 5. Search comparing searchField with news atribute
+
         if (title.includes(searchField) || image.includes(searchField) || imageAlt.includes(searchField) || imageTitle.includes(searchField) || date.includes(searchField) || text.includes(searchField) || link.includes(searchField) || tags.includes(searchField)) {
+
+// 6. Display search's result 
 
             results += `
             <div class="item-result">
@@ -48,6 +57,8 @@ function newsSearch() {
         }
 
     }
+
+// 7. if search do not find result
 
     if (!results) {
         results = "<p>Nenhum resultado foi encontrado</p>"
