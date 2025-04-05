@@ -79,3 +79,103 @@
     color: var(--gray);
     transition: 0.3ms ease-in-out;
 }
+
+/* RESPONSIVE */
+
+
+@media(max-width: 830px) {
+
+    .main .title {
+        padding: 15px;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .main .members .member{
+        height: 200px;
+        width: 80%;
+        max-width: 380px;
+        min-width: 300px;
+    }
+
+    .main .member .member-photo img{
+        height: 200px;
+    }
+
+
+
+
+ /*FALTAnDO CONFIG*/
+
+
+
+
+
+
+    .main .member .member-info{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: 100%;
+        width: 90%;
+    }
+    
+    .member .member-info h2,p{
+        margin-bottom: 20px;
+    }
+    
+    .member .member-info h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .member .member-info h3{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+      
+    .member .member-info p{
+        font-size: 1.6rem;
+    }
+    
+    .member .member-info a{
+        padding: 20px;
+        font-size: 2.5rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+/* PAGES DA HOME*/
+
+
+    .main .page img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .page .page-text p {
+        font-size: 1.4rem;
+        margin: 10px;
+    }
+
+    .page .page-text h2 {
+        margin: 20px 10px 35px 10px;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .page .page-text a {
+        font-size: 1.4rem;
+        padding: 10px;
+        margin: 0px;
+    }
+
+}
