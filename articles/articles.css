@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -110,4 +114,70 @@
     padding: 20px;
 }
 
+.footer {
+    margin-top: 70px;
+
+}
+
+/*RESPOSIVE*/
+
+@media(max-width: 830px) {
+
+    .main h1 {
+        padding: 15px;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .main section input {
+        font-size: 1.6rem;
+        padding: 15px;
+        margin: 20px;
+    }
+    
+    .main section button {
+        width: 150px;
+        font-size: 2rem;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    .item-result {
+        width: 90%;
+        height: 100%;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    .item-result img {
+        width: 60%;
+    }
+    
+    .item-result #img-title {
+        position: relative;
+        margin: 0px 20px;
+        margin-bottom: 20px;
+        bottom: 0px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    
+    .item-result h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0px;
+    }
+    
+    .item-result .news-date {
+        text-indent: 0px;
+        margin: 20px;
+    }
+    
+    .item-result p {
+        line-height: 30px;
+        font-size: 1.6rem;
+        padding: 0px;
+    }
+}
 
