@@ -27,7 +27,7 @@
     flex-direction: column;
     width: 50%;
     padding: 60px;
-    margin: 20px;
+    margin: 20px 20px 60px 20px;
     background-color: var(--light-gray);
     border-radius: 5px;
     box-shadow: 1px 3px 5px var(--black);
@@ -45,10 +45,38 @@
     width: 20%;
 }
 
+.main section div a:hover {
+    color: var(--gray);
+}
+
 .main section div a i {
     margin-right: 10px;
 }
 
 section div h2 {
+    font-weight: 700;
     margin-bottom: 10px;
+}
+
+/*RESPONSIVE*/
+
+@media(max-width: 830px) {
+
+    .main .title {
+        padding: 15px;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .main section {
+        width: 80%;
+        padding: 40px;
+    }
+
+    section div h2 {
+        font-size: 2rem;
+    }
+
+
 }

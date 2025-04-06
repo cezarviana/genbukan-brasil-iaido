@@ -71,7 +71,7 @@
 }
 
 .member .member-info a{
-    padding: 20px;
+    margin: 20px;
     font-size: 2.5rem;
 }
 
@@ -92,90 +92,53 @@
         margin-bottom: 0px;
     }
 
-    .main .members .member{
-        height: 200px;
-        width: 80%;
+    .main .members .member {
+    
+        height: 240px;
+        width: 100%;
         max-width: 380px;
         min-width: 300px;
     }
 
-    .main .member .member-photo img{
-        height: 200px;
-    }
-
-
-
-
- /*FALTAnDO CONFIG*/
-
-
-
-
-
-
-    .main .member .member-info{
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
+    .main .member .member-photo {        
         height: 100%;
-        width: 90%;
     }
-    
+
+    .main .member .member-photo img {
+        position: static;
+        height: 160px;
+        min-width: 120px;
+        padding: 10px;
+    }
+
+    .main .member .member-photo .anchieta { 
+        min-width: 70px;
+    }
+
+    .main .member .member-info {
+        padding: 10px;
+    }
+
     .member .member-info h2,p{
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     
     .member .member-info h2{
-        font-size: 2rem;
-        font-weight: 700;
+        font-size: 1.2rem;
     }
     
     .member .member-info h3{
-        font-size: 1.6rem;
-        font-weight: 700;
+        font-size: 1.1rem;
     }
       
     .member .member-info p{
-        font-size: 1.6rem;
+        font-size: 1.1rem;
     }
     
     .member .member-info a{
-        padding: 20px;
-        font-size: 2.5rem;
-    }
-    
-
-
-
-
-
-
-
-
-
-/* PAGES DA HOME*/
-
-
-    .main .page img {
-        width: 150px;
-        height: 200px;
-    }
-
-    .page .page-text p {
-        font-size: 1.4rem;
-        margin: 10px;
-    }
-
-    .page .page-text h2 {
-        margin: 20px 10px 35px 10px;
-        font-weight: 700;
-        font-size: 1.8rem;
-    }
-
-    .page .page-text a {
-        font-size: 1.4rem;
         padding: 10px;
-        margin: 0px;
+        margin: 10px;
+        font-size: 2.4rem;
     }
 
 }
