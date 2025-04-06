@@ -47,6 +47,7 @@
 
 .main section div a:hover {
     color: var(--gray);
+    transition: 0.3ms ease-in-out;
 }
 
 .main section div a i {
@@ -77,6 +78,4 @@ section div h2 {
     section div h2 {
         font-size: 2rem;
     }
-
-
 }
