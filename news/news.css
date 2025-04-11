@@ -100,7 +100,9 @@
 }
 
 .item-result .news-date {
-    text-indent: 0px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
 }
 
 .item-result p {
@@ -116,8 +118,8 @@
 .main .carrossel ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: initial;
 
 }
 
@@ -135,8 +137,7 @@
 .main .carrossel ul li h2 {
     text-align: center;
     background-color: var(--light-gray);
-    box-shadow: 1px 3px 5px var(--black);
-    box-shadow: none;
+    font-weight: 700;
     padding: 20px;
 }
 
@@ -146,6 +147,12 @@
     line-height: 25px;
     font-size: 1.6rem;
     padding: 20px;
+}
+
+.main .carrossel ul li .date{
+    display: flex;
+    justify-content: start;
+    width: 100%;
 }
 
 .main .carrossel ul li h2:empty {

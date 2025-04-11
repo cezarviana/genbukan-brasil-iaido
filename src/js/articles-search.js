@@ -20,8 +20,6 @@ function articlesSearch() {
     let link = "";
     let tags = "";
 
-    articles = articles.reverse()
-
     for (let article of articles) {
         title = article.title.toLowerCase()
         image = article.image.toLowerCase()
@@ -36,10 +34,10 @@ function articlesSearch() {
 
             results += `
             <div class="item-result">
-                <img class="news-image" src="${article.image}" alt="${article.imageAlt}">
-                <p id="img-title">${article.imageTitle}</p> 
                 <h2>${article.title}</h2>
                 <p class="news-date">${article.date}</p> 
+                <img class="news-image" src="${article.image}" alt="${article.imageAlt}">
+                <p id="img-title">${article.imageTitle}</p> 
                 <p class="news-text">${article.text}</p> 
                 <p class="news-link">${article.link}</p> 
             </div>
