@@ -113,7 +113,7 @@ html {
     margin: 20px;
 }
 
-.item-result .news-date{
+.item-result .article-date{
     text-indent: 0px;
 }
 
@@ -215,7 +215,7 @@ html {
         margin: 10px;
     }
     
-    .item-result .news-date {
+    .item-result .article-date {
         text-indent: 0px;
         margin: 20px;
     }
