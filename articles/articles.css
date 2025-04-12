@@ -91,8 +91,8 @@ html {
 .item-result #img-title {
     position: relative;
     margin-top: 10px;
-    bottom: 30px;
-    font-size: 1.6rem;
+    bottom: 20px;
+    font-size: 2rem;
     text-align: center;
     text-indent: 0px;
 }
@@ -136,6 +136,27 @@ html {
     font-size: 2.0rem;
     list-style: square inside;
     margin: 0px 20px;
+}
+
+.item-result .mjer-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-result .mjer-img p{
+    text-align: center;
+    text-indent: 0px;
+}
+
+.item-result  .mjer-img img {
+    width: 70%;
+    margin: 20px;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.item-result .img-big img {
+    width: 50%;
 }
 
 /*FOOTER*/
@@ -209,5 +230,10 @@ html {
         font-size: 1.6rem;
         margin: 0px 0px 0px 10px;
     }
+    
+    .item-result .img-big img {
+        width: 60%;
+    }
+
 }
 
