@@ -25,38 +25,52 @@
     justify-content: center;
     text-align: justify;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     padding: 60px;
-    margin: 20px 20px 60px 20px;
+    margin: 20px;
     background-color: var(--light-gray);
     border-radius: 5px;
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main section div {
+.main section .div-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
     flex-direction: row;
+
+    gap: 10%;
     margin-bottom: 40px;
 }
 
-.main section div a {
+section .div-content img {
+    width: 100px;
+}
+
+section .div-content .img-circle {
+    border-radius: 50%;
+}
+
+.div-content div h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.main .div-content div a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 8px;
     width: 20%;
 }
 
-.main section div a:hover {
+.main .div-content div a:hover {
     color: var(--gray);
     transition: 0.3ms ease-in-out;
 }
 
-.main section div a i {
+.main .div-content div a i {
     margin-right: 10px;
-}
-
-section div h2 {
-    font-weight: 700;
-    margin-bottom: 10px;
 }
 
 /*RESPONSIVE*/
@@ -71,11 +85,26 @@ section div h2 {
     }
 
     .main section {
-        width: 80%;
-        padding: 40px;
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 30px;
     }
 
-    section div h2 {
+    .main section .div-content {
+        text-align: center;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .div-content div h2 {
         font-size: 2rem;
     }
+
+    section .div-content img {
+        width: 180px;
+    }
+
 }
