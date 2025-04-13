@@ -6,6 +6,14 @@ fetch('../header/header.html')
 });
 
 
+/*BREAKING NEWS INSERT */
+fetch('../news/breaking-news.html')
+.then(response => response.text())
+.then(html => {
+    document.getElementById('content-breaking-news').innerHTML = html;
+});
+
+
 /*FOOTER INSERT */
 fetch('../footer/footer.html')
 .then(response => response.text())

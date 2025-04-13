@@ -1,0 +1,102 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--gray);
+    color: var(--white);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin: 60px;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+
+/* BREAKING NEWS */
+
+.main .carousel ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: initial;
+}
+
+.carousel ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.main .carousel ul li h2 {
+    text-align: center;
+    background-color: var(--light-gray);
+    font-weight: 700;
+    padding: 20px;
+}
+
+.main .carousel ul li p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.main .carousel ul li .date{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.main .carousel ul li h2:empty {
+    display: none;
+}
+
+.main .carousel ul li p:empty {
+    display: none;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 830px) {
+
+    .main h1 {
+        padding: 15px;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .main .carousel ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .main .carousel ul li h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0px;
+    }
+    
+    .main .carousel ul li p {
+        line-height: 30px;
+        font-size: 1.6rem;
+        padding: 20px;
+    }
+
+}
