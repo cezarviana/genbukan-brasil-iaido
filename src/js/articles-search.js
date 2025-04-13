@@ -37,7 +37,7 @@ function articlesSearch() {
             results += `
             <div class="item-result">
                 <h2>${article.title}</h2>
-                <p class="article-date">${article.author}</p> 
+                <p class="article-author">${article.author}</p> 
                 <p class="article-date">${article.date}</p> 
                 <img class="news-image" src="${article.image}" alt="${article.imageAlt}">
                 <p id="img-title">${article.imageTitle}</p> 
