@@ -38,9 +38,9 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 
 ## 💡 Decisões do projeto
 1. **Header e Footer padrões**
-- Tanto o Header quanto o Footer iriam se repitir por todas as páginas do projeto, portanto, para que não houvesse duplicidade foi separado, construído um único e inserido com o "fetch" do JavaScript:
+- Tanto o Header quanto o Footer iriam se repitir por todas as páginas do projeto, portanto, para que não houvesse duplicidade foi separado, construído um único e inserido com o "`fetch`" do JavaScript:
    ```javascript
-   fetch('../header/header.html')
+   `fetch`('../header/header.html')
    .then(response => response.text())
    .then(html => {
     document.getElementById('content-header').innerHTML = html;
@@ -50,13 +50,13 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 - Como as últimas notícias seriam apresentadas tanto na Home como na página Notícias, foi feito como nos casos do Header e Footer.
 
 ## 💦 Dificuldades do projeto
-- Utilizar o "fetch" para reduzir duplicidades: Como é algo que eu nunca havia feito, não tinha ideia nem de como começar, mas, com pesquisas no Stack Overflow, Documentação e utilização de IA para apresentar possíveis soluções. Consegui implementar o que eu queria.
+- Utilizar o `fetch` para reduzir duplicidades: Como é algo que eu nunca havia feito, não tinha ideia nem de como começar, mas, com pesquisas no Stack Overflow, Documentação e utilização de IA para apresentar possíveis soluções. Consegui implementar o que eu queria.
 - Criar um banco de artigos e notícias: Como é algo que eu não havia feito sozinho (guardar informações do site no LocalStorage), tinha ideia superficial de como começar.Utilizando outros projetos como base, consegui ter uma ideia. Mas ainda quero melhorar nessa parte.
 - Campos de pesquisas: a partir do conhecimento de outros projetos consegui, fazer dois campos de pesquisa para artigos e notícias. A parte inicial de entender o funcionamento do código foi um pouco complexa, mas tentando enteder o que cada bloco de código estava fazendo ajudou demais.
 - Menu hamburguer: Apesar de já ter utilizado em outro projeto, havia sido com auxílio dos intrutores do Curso. Estudei o código, li com calma e atenção e consegui replicar para esse projeto.
 
 ## 🔓 O que eu aprendi
-- Uma das funções do "fetch", que permitiu reduzir duplicações e vai facilitar a manutenção e atualização do código do projeto.
+- Uma das funções do `fetch`, que permitiu reduzir duplicações e vai facilitar a manutenção e atualização do código do projeto.
 - Como fazer um local storage (Melhorar, colocar em JSON).
 - Fazer um campo de pesquisa para o local storage.
 - Consegui compreender melhor como funciona este menu hamburguer.
@@ -64,6 +64,8 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 
 ## 💭 Possíveis atualizações futuras
 - Finalizar o README ✅
+- Adicionar Artigos
+- Finalizar Notícias
 - Carrossel para as notícias na Home e na página Notícias
 - Campo de pesquisa para todo o site
 - Melhorar o sistema de local storage (mudar para JSON)
