@@ -66,7 +66,7 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 - Finalizar o README ✅
 - Adicionar Artigos
 - Finalizar Notícias
-- Carrossel para as notícias na Home e na página Notícias
+- Carrossel para as Últimas Notícias na Home e na página Notícias
 - Campo de pesquisa para todo o site
 - Melhorar o sistema de local storage (mudar para JSON)
 - Botões para alterar a língua ES, EN
