@@ -126,12 +126,12 @@
     }
 
     .main .sensei div .sensei-photo img {
-        width: 60vw;
+        width: 80vw;
         max-width: 430px;
     }
 
     .main .sensei div .sensei-text {
-        max-width: 60vw;
+        max-width: 80vw;
     }
 
     .sensei div .sensei-text h1 {
