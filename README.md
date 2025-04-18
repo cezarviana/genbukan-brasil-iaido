@@ -21,6 +21,7 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 - **HTML:** Estruturação do projeto
 - **CSS:** Estilização do projeto, responsivo e menu hamburguer
 - **JavaScript:** Campos de busca, procura e entrega dos itens buscados em tela
+- **Git:** Ferramenta de versionamento
 - **Fontawesome:** Utiliza ícones de um banco de ícones externo
 
 
@@ -79,7 +80,7 @@ Siga os passos abaixo para executar o projeto na sua máquina:
 1. Abra o git, e execute os seguintes comandos
 2. **Clonar o repositório:**
    ```bash
-   git clone https://[seu-repositorio]/projeto-atletas-paralimpicos.git
+   git clone https://github.com/cezarviana/genbukan-brasil-iaido.git
    ```
 3. npm install
 4. npm run dev
