@@ -27,12 +27,8 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 ## 🎨 Imagens do projeto
 
 <div align="center">
-<img src="./src/images/others/genbukan-brasil.gif"  style="height: 300px; text-align: center;"> <br>
-</div>
-
-<br>
-
-<div align="center">
+<img src="./src/images/others/genbukan-brasil.gif"  style="height: 300px; text-align: center;"> 
+<br><br>
 <img src="./src/images/others/genbukan-brasil-mobile.gif"  style="height: 300px; text-align: center;"> <br>
 </div>
 
