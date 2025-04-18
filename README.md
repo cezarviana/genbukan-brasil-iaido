@@ -8,14 +8,23 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 ## 🔎 Funcionalidades
 - Responsivo para todos os dispositivos
 - Menu hamburguer para versões mobile
+- Links para redes sociais: 
+- - Permitindo o usuário entrar em contato direto com os orientadores.
+- - Outros sites de artes marciais.
+- - Para lojas indicadas para a compra do material para a prática da arte marcial.
 - Função `pesquisar()` para notícias em `app.js`:
-- - Filtro por termos
-- - Filtro por datas
+- - Filtro por `termos`
+- - Filtro por `datas`
 - - Lista de `resultados-pesquisa`exibida em seção
 - Função `pesquisar()` para artigos em `app.js`:
-- - Filtro por termos
-- - Filtro por autores
+- - Filtro por `termos`
+- - Filtro por `autores`
 - - Lista de `resultados-pesquisa`exibida em seção
+- Iterar sobre o array de artigos e notícias.
+- Verificar se o valor digitado está contido em algum dos campos do objeto `articles` ou `newsS`.
+- Se houver correspondência, os artigos ou notícias é adicionado à lista de resultados.
+- A lista de resultados é exibida na seção `resultados-pesquisa`.
+
 
 ## 🛠️ Ferramentas utilizadas
 - **HTML:** Estruturação do projeto
