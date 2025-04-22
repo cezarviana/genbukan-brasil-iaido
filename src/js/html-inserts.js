@@ -48,3 +48,7 @@ function sendEmailAlcantara() {
 function sendEmailBorges() {
     window.open('mailto:aleborges007@hotmail.com')
 }
+
+function sendEmailMarcio() {
+    window.open('mailto:marcio.medeiros@gmail.com')
+}
