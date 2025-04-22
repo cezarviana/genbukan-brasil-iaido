@@ -9,7 +9,7 @@ function newsSearch() {
         return
     }
 
-// 2. searchField to lowerCase (because search is case sensitive)
+    // 2. searchField to lowerCase (because search is case sensitive)
     searchField = searchField.toLowerCase()
 
     let results = "";
@@ -23,10 +23,10 @@ function newsSearch() {
     let tags = "";
 
 
-// 3. Reverse news position (newest news first)
+    // 3. Reverse news position (newest news first)
     newsS = newsS.reverse()
 
-// 4. newsS to lowerCase (because search is case sensitive)
+    // 4. newsS to lowerCase (because search is case sensitive)
     for (let news of newsS) {
         title = news.title.toLowerCase()
         image = news.image.toLowerCase()
@@ -37,17 +37,17 @@ function newsSearch() {
         link = news.link.toLowerCase()
         tags = news.tags.toLowerCase()
 
-// 5. Search comparing searchField with news atribute
+        // 5. Search comparing searchField with news atribute
 
         if (title.includes(searchField) || image.includes(searchField) || imageAlt.includes(searchField) || imageTitle.includes(searchField) || date.includes(searchField) || text.includes(searchField) || link.includes(searchField) || tags.includes(searchField)) {
 
-// 6. Display search's result 
+            // 6. Display search's result 
 
             results += `
             <div class="item-result">
+                <h2>${news.title}</h2>
                 <img class="news-image" src="${news.image}" alt="${news.imageAlt}">
                 <p id="img-title">${news.imageTitle}</p> 
-                <h2>${news.title}</h2>
                 <p class="news-date">${news.date}</p> 
                 <p class="news-text">${news.text}</p> 
                 <p class="news-link">${news.link}</p> 
@@ -58,7 +58,7 @@ function newsSearch() {
 
     }
 
-// 7. if search do not find result
+    // 7. if search do not find result
 
     if (!results) {
         results = "<p>Nenhum resultado foi encontrado</p>"

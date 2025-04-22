@@ -78,6 +78,8 @@
 }
 
 .item-result img {
+    display: flex;
+    justify-content: center;
     margin: 40px 20px 0px 20px;
     width: 60%;
 }
@@ -87,6 +89,7 @@
     margin: 0px;
     bottom: 30px;
     font-size: 1.6rem;
+    text-align: center;
     text-indent: 0px;
 }
 
@@ -95,6 +98,7 @@
     font-weight: 800;
     margin: 20px;
     text-align: center;
+    line-height: 4.0rem;
 }
 
 .item-result .news-date {
@@ -150,13 +154,14 @@
         margin-bottom: 20px;
         bottom: 0px;
         font-size: 1.2rem;
-        line-height: 1.4rem;
+        line-height: 1.8rem;
     }
     
     .item-result h2 {
         font-size: 2rem;
         font-weight: 800;
         margin: 0px;
+        line-height: 3.0rem;
     }
     
     .item-result .news-date {
