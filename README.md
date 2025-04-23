@@ -55,6 +55,9 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 2. **Notícias**
 - Como as últimas notícias seriam apresentadas tanto na Home como na página Notícias, foi feito como nos casos do Header e Footer.
 
+3. **Fontes**
+- Para este projeto foi escolhida a fonte [Lato](https://fonts.google.com/specimen/Lato?query=lato), pois possui uma excelente legibilidade. Como o projeto tem artigos e notícia, uma fonte legível é fundamental.
+
 ## 💦 Dificuldades do projeto
 - Utilizar o `fetch` para reduzir duplicidades: Como é algo que eu nunca havia feito, não tinha ideia nem de como começar, mas, com pesquisas no Stack Overflow, Documentação e utilização de IA para apresentar possíveis soluções. Consegui implementar o que eu queria.
 - Criar um banco de artigos e notícias: Como é algo que eu não havia feito sozinho (guardar informações do site no LocalStorage), tinha ideia superficial de como começar.Utilizando outros projetos como base, consegui ter uma ideia. Mas ainda quero melhorar nessa parte.
