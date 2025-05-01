@@ -115,12 +115,28 @@
 }
 
 .item-result p {
+    text-align: justify;
     text-indent: 30px;
     line-height: 35px;
     font-size: 2.0rem;
     padding: 20px;
 }
 
+.item-result a {
+    text-align: center;
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.8ms, ease-in-out;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.item-result a:hover {
+    background-color: var(--dark-gray);
+    color: var(--white); 
+    transition: 0.3s ease-in-out;
+}
 
 /* RESPONSIVE */
 
@@ -179,7 +195,7 @@
     .item-result p {
         line-height: 30px;
         font-size: 1.6rem;
-        padding: 0px;
+        padding: 5px 0px;
     }
 
 }
