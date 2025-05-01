@@ -80,7 +80,6 @@
 .item-result .news-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -116,7 +115,6 @@
 }
 
 .item-result p {
-    text-align: justify;
     text-indent: 30px;
     line-height: 35px;
     font-size: 2.0rem;
