@@ -20,8 +20,7 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-
-.main section{
+.main section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +29,7 @@
     margin: 0;
 }
 
-.main section input{
+.main section input {
     border-radius: 15px;
     width: 260px;
     font-size: 1.6rem;
@@ -39,7 +38,7 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main section button{
+.main section button {
     background-color: var(--gray);
     color: var(--white);
     width: 150px;
@@ -49,7 +48,7 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
-.main section button:hover{
+.main section button:hover {
     background-color: var(--dark-gray);
     color: var(--white); 
     transition: 0.3s ease-in-out;
@@ -65,6 +64,12 @@
     box-shadow: 1px 3px 5px var(--black);
 }
 
+.main .item-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main .item-result h1 {
     text-align: center;
     margin-bottom: 50px;
@@ -73,9 +78,14 @@
 }
 
 .main .item-result .article-author {
+    width: 100%;
     text-align: end;
-    text-indent: 0;
-    font-size: 1.6rem;
+    padding: 0px 20px;
+}
+
+.main .item-result .article-date {
+    width: 100%;
+    text-align: start;
 }
 
 .main .item-result h2 {
@@ -120,10 +130,44 @@
     width: 50%;
 }
 
+.main .item-result #img-title {
+    position: relative;
+    margin: 20px;
+    bottom: 30px;
+    font-size: 1.6rem;
+    text-align: center;
+    text-indent: 0px;
+}
+
 .main .item-result .mjer-img p {
     margin-bottom: 40px;
     text-align: center;
     text-indent: 0px;
+}
+
+.main .item-result img.article-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.main .item-result a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.8ms, ease-in-out;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.main .item-result a:hover {
+    background-color: var(--dark-gray);
+    color: var(--white); 
+    transition: 0.3s ease-in-out;
 }
 
 /* RESPONSIVE */

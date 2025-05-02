@@ -39,7 +39,7 @@ function articlesSearch() {
                 <h2>${article.title}</h2>
                 <p class="article-author">${article.author}</p> 
                 <p class="article-date">${article.date}</p> 
-                <img class="news-image" src="${article.image}" alt="${article.imageAlt}">
+                <img class="article-image" src="${article.image}" alt="${article.imageAlt}">
                 <p id="img-title">${article.imageTitle}</p> 
                 <p class="article-text">${article.text}</p> 
                 <p class="article-link">${article.link}</p> 
