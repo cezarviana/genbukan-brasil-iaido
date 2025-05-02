@@ -20,12 +20,12 @@ let newsS = [
         tags: "notícias noticia iaido jodo seminário"
     },
     {   number : "3",
-        title : "2º Campeonato Latinoamericano de Iaido",
-        image : "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
-        imageAlt : "Bandeira do Chile.",
-        imageTitle :"Bandeira do Chile.",
+        title : "2º Campeonato Latinoamericano de Iaido 17/10/2025 a 19/10/2025 - Santiago, Chile",
+        image : "../src/images/photos/2023-campeonato-latinoamericano-iaido.jpg",
+        imageAlt : "Praticantes brasileiros de Iaido no campeonato.",
+        imageTitle :"Praticantes brasileiros de Iaido no campeonato.",
         date : "01/05/2025",
-        text : 'Entre os dias 17 e 19 de outubro de 2025, a capital chilena, Santiago, será palco de um dos mais aguardados eventos de artes marciais do continente: o 2º Campeonato Latinoamericano de Iaido, que acontecerá . O evento reunirá praticantes, mestres e entusiastas dessa arte marcial tradicional japonesa vindos de diversos países. <p>O campeonato busca fortalecer os laços entre os países da região e promover o intercâmbio técnico e cultural entre os praticantes do Iaido. Aguardem mais informações!</p>',
+        text : 'Entre os dias 17 e 19 de outubro de 2025, a capital chilena, Santiago, será palco do 2º Campeonato Latinoamericano de Iaido . O evento reunirá Kenshi e Sensei diversos países do continente americano. O campeonato busca fortalecer os laços entre os países da região e promover o intercâmbio técnico e cultural entre os praticantes de Iaido.  Aguardem mais informações!</p>',
         link : "",
         tags: "notícias noticia iaido américa latina"
     },
