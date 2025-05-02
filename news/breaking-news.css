@@ -56,7 +56,16 @@
     padding: 20px;
 }
 
-.main .carousel ul li .date{
+
+.main .carousel img {
+    padding: 20px;
+}
+
+.main .carousel .vertical-img {
+    width: 40%;
+}
+
+.main .carousel ul li .date {
     display: flex;
     justify-content: start;
     width: 100%;
@@ -84,15 +93,19 @@
     .main .carousel ul {
         display: flex;
         flex-direction: column;
-        
+
     }
-    
+
     .main .carousel ul li h2 {
         font-size: 2rem;
         font-weight: 800;
         margin: 0px;
     }
-    
+
+    .main .carousel .vertical-img {
+        width: 70%;
+    }
+
     .main .carousel ul li p {
         line-height: 30px;
         font-size: 1.6rem;
