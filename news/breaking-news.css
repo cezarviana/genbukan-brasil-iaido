@@ -30,7 +30,7 @@
     align-items: initial;
 }
 
-.carousel ul li {
+.main .carousel ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +112,7 @@
 
     }
 
-        .main .carousel ul li {
+    .main .carousel ul li {
             width: 90%;
     }
 

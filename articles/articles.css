@@ -50,7 +50,7 @@
 
 .main section button:hover {
     background-color: var(--dark-gray);
-    color: var(--white); 
+    color: var(--white);
     transition: 0.3s ease-in-out;
 }
 
@@ -164,9 +164,67 @@
 
 .main .item-result a:hover {
     background-color: var(--dark-gray);
-    color: var(--white); 
+    color: var(--white);
     transition: 0.3s ease-in-out;
 }
+
+.main .articles-sample ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main .articles-sample ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 1px 3px 5px var(--black);
+}
+
+.main .articles-sample ul li h2 {
+    text-align: center;
+    background-color: var(--light-gray);
+    font-weight: 700;
+    padding: 20px;
+}
+
+.main .articles-sample ul li p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.main .articles-sample img {
+    padding: 20px;
+    max-height: 400px;
+}
+
+.main .articles-sample ul li .date {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.main .articles-sample ul li .author {
+    width: 100%;
+    text-align: end;
+    padding: 0px 30px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    margin-top: 40px;
+}
+
 
 /* RESPONSIVE */
 
@@ -188,7 +246,7 @@
     .main .item-result h1 {
         font-size: 3rem;
     }
-    
+
     .main .item-result .article-author {
         text-align: center;
     }
@@ -206,10 +264,31 @@
         line-height: 30px;
     }
 
-}
 
-/*FOOTER*/
+    .main .articles-sample ul {
+        display: flex;
+        flex-direction: column;
 
-.footer {
-    margin-top: 40px;
+    }
+
+    .main .articles-sample ul li {
+        width: 90%;
+    }
+
+    .main .articles-sample ul li h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0px;
+    }
+
+    .main .articles-sample .vertical-img {
+        width: 70%;
+    }
+
+    .main .articles-sample ul li p {
+        line-height: 30px;
+        font-size: 1.6rem;
+        padding: 20px;
+    }
+
 }
