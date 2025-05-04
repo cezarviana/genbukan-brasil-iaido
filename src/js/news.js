@@ -25,7 +25,7 @@ let newsS = [
         imageAlt : "Praticantes brasileiros de Iaido no campeonato.",
         imageTitle :"Praticantes brasileiros de Iaido no campeonato.",
         date : "01/05/2025",
-        text : 'Entre os dias 17 e 19 de outubro de 2025, a capital chilena, Santiago, será palco do 2º Campeonato Latinoamericano de Iaido . O evento reunirá Kenshi e Sensei diversos países do continente americano. O campeonato busca fortalecer os laços entre os países da região e promover o intercâmbio técnico e cultural entre os praticantes de Iaido. Aguardem mais informações!</p>',
+        text : 'Entre os dias 17 e 19 de outubro de 2025, a capital chilena, Santiago, será palco do 2º Campeonato Latinoamericano de Iaido . O evento reunirá Kenshi e Sensei diversos países do continente americano. O campeonato busca fortalecer os laços entre os países da região e promover o intercâmbio técnico e cultural entre os praticantes de Iaido.  Aguardem mais informações!</p>',
         link : "",
         tags: "notícias noticia iaido américa latina"
     },
