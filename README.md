@@ -74,7 +74,9 @@ Acesse o site aqui: [Gebukan Brasil](https://genbukan-brasil.vercel.app/index.ht
 ## 💭 Possíveis atualizações futuras
 - Finalizar o README ✅
 - Adicionar Artigos
-- Finalizar Notícias
+- Finalizar Notícias 
+- Criar uma página que apresente as Notícias, ao clicar no título
+- Pesquisa de Notícias apresentar Títulos clicáveis
 - Carrossel para as Últimas Notícias na Home e na página Notícias
 - Campo de pesquisa para todo o site
 - Melhorar o sistema de local storage (mudar para JSON)
