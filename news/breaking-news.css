@@ -91,7 +91,22 @@
     background-color: var(--dark-gray);
     color: var(--white); 
     transition: 0.3s ease-in-out;
+    box-shadow: 1px 3px 5px var(--black);
 }
+
+.main .carousel ul li .news-title-link {
+    background-color: var(--light-gray);
+    color: var(--black);
+    transition: 0.8ms, ease-in-out;
+    box-shadow: none;
+}
+
+/* .main .carousel ul li .news-title-link:hover {
+    background-color: var(--light-gray);
+    color: var(--dark-gray); 
+    transition: 0.3s ease-in-out;
+} */
+
 
 
 /* RESPONSIVE */
