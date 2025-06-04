@@ -192,13 +192,6 @@
     padding: 20px;
     margin: 20px;
 }
-/* 
-.main .articles-sample .article-title-link:hover {
-    background-color: var(--dark-gray);
-    color: var(--gray);
-    transition: 0.3s ease-in-out;
-} */
-
 
 .main .articles-sample ul li a h2:hover {
     border-radius: 5px;
