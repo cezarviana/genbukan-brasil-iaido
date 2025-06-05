@@ -17,7 +17,7 @@ let articles = [
         imageTitle :"Técnicas do Musi Jikiden Eishin Ryu",
         author :"",
         date : "",
-        text : 'O Muso Jikiden Eishin Ryu está dividido em três grandes seções. Omori Ryu (também conhecido como Shoden) é executado a partir de seiza. Eishin Ryu (Chuden) é executado a partir de tate hiza e, finalmente, temos Okuden, o conjunto de técnicas mais avançadas. Okuden está dividido em duas seções: tatehiza e tachiwaza (técnicas em pé)',
+        text : 'O Muso Jikiden Eishin Ryu está dividido em três grandes seções. Omori Ryu (também conhecido como Shoden) é executado a partir de seiza. Eishin Ryu (Chuden) é executado a partir de tate hiza e, finalmente, temos Okuden, o conjunto de técnicas mais avançadas. Okuden está dividido em duas seções: tatehiza e tachiwaza (técnicas em pé). O Bangai-no-Bu contempla uma compilação de técnicas adicionais criadas por Oe Masaji Sensei.  Essas técnicas muitas vezes não são consideradas parte do conjunto fundamental do Koryu, mas são técnicas suplementares.',
         link : "",
         tags: "artigo iaido"
     },
