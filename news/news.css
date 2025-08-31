@@ -122,6 +122,10 @@
     padding: 20px;
 }
 
+.item-result p .no-indent {
+    text-indent: 0px;
+}
+
 .item-result a {
     display: flex;
     justify-content: center;
