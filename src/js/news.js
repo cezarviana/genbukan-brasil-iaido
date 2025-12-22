@@ -89,7 +89,17 @@ let newsS = [
         link : "",
         tags: "notícias noticia iaido campeonato brasileiro chile"
     },
-    // {   number : "10",
+    {   number : "11",
+        title : "2º Campeonato São Paulo Open de Iaido",
+        image : "../src/images/photos/2026-open-iaido-sp.png",
+        imageAlt : "Convite para o SP Open Iaido,com praticante executando o reiho.",
+        imageTitle :"",
+        date : "22/12/2025",
+        text : 'A Federação Paulista de Kendo (FPK), em parceria com o SESC, promoverá o 2º São Paulo Open de Iaido no SESC Consolação, localizado no centro de São Paulo, nos dias 21 e 22 de fevereiro de 2026.  Divulgaremos maiores informações com a liberação de comunicados e carta-convite.</p>        <p>   21 e 22 de fevereiro de 2026 - SESC Consolação: Rua Dr. Vila Nova, 245, Vila Buarque, São Paulo - SP .</p> <a href="https://www.instagram.com/p/DSLr7GdEZNe/" target="_blank">Instagram da Federação Paulista de Kendo</a>',
+        //link : '<a href="https://www.instagram.com/p/DSLr7GdEZNe/">Instagram da Federação Paulista de Kendo</a>',
+        tags: "notícias noticia iaido campeonato são paulo open"
+    },
+    // {   number : "12",
     //     title : "",
     //     image : "",
     //     imageAlt : "",

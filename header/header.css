@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: var(--black);
+    /* background-color: #004234; */
     height: 35vh;
     padding: 10px;
 }
