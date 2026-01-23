@@ -99,6 +99,16 @@ let newsS = [
         //link : '<a href="https://www.instagram.com/p/DSLr7GdEZNe/">Instagram da Federação Paulista de Kendo</a>',
         tags: "notícias noticia iaido campeonato são paulo open"
     },
+    {   number : "12",
+        title : "Seminário Internacional de ZNKR Iai e Muso Shinden Ryu e Primeiro Campeonato de Iaido Koryu - Rancagua, Chile",
+        image : "../src/images/events/2026-03-seminario-rancagua-chile.jpeg",
+        imageAlt : "Foto de divulgação do Seminário Internacional de ZNKR. Rancagua, Chile. 2026.",
+        imageTitle :"Foto de divulgação do Seminário Internacional de ZNKR. Rancagua, Chile. 2026.",
+        date : "23/01/2026",
+        text : 'Em março de 2026 a cidade de Rancagua, no Chile, sediará o Seminário Internacional de ZNKR Iai e Muso Shinden Ryu, além de realizar o primeiro campeonato de Koryu do Chile.    <p> O evento conta com a orientação de Andy Watson Sensei (Kyoshi 7° Dan Iaido, Kyoshi 7° Dan Jodo) e Harry Jones Sensei (Kyoshi 7° Dan Iaido, Kyoshi 7° Dan Jodo). </br></br>Data:  13 / 14 / 15 de março de 26</br>Local:  Rancagua, Chile</p> <a href="https://www.facebook.com/p/Iaido-y-Jodo-Rancagua-Sakura-Dojo-100063765300107/" target="_blank" rel="noopener noreferrer">Maiores informações</a>',
+        link : "",
+        tags: "notícias noticia iaido"
+    },
     // {   number : "12",
     //     title : "",
     //     image : "",
