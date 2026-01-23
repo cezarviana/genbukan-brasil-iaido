@@ -23,6 +23,7 @@ function newsSearch() {
     let tags = "";
 
 
+
     // 3. Reverse news position (newest news first)
     newsS = newsS.reverse()
 
@@ -31,11 +32,11 @@ function newsSearch() {
         title = news.title.toLowerCase()
         image = news.image.toLowerCase()
         imageAlt = news.imageAlt.toLowerCase()
-        imageTitle = news.imageTitle.toLocaleLowerCase()
+        imageTitle = news.imageTitle.toLowerCase()
         date = news.date.toLowerCase()
         text = news.text.toLowerCase()
-        link = news.link.toLowerCase()
-        tags = news.tags.toLowerCase()
+        // link = news.link.toLowerCase()
+        // tags = news.tags.toLowerCase()
 
         // 5. Search comparing searchField with news atribute
 
@@ -68,24 +69,3 @@ function newsSearch() {
 }
 
 
-// CARROSSEL
-// fetch('../new.js')
-// .then(response => response.text())
-// .then(data => {
-//     const last3 = data.slice(-3);
-//     let html = "";
-//     last3.forEach(item => {
-//         html +=
-//             `
-//                 <div class="item-result">
-//                 <img class="news-image" src="${news.image}" alt="${news.imageAlt}">
-//                 <p class="img-title">${news.imageTitle}</p>
-//                 <h2>${news.title}</h2>
-//                 <p class="news-date">${news.date}</p>
-//                 <p class="news-text">${news.text}</p>
-//                 <p class="news-link">${news.link}</p>
-//                 </div>
-//             `
-//     });
-//     document.getElementById('carrossel').innerHTML = html;
-// });
