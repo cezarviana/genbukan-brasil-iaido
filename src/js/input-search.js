@@ -27,3 +27,10 @@ async function inputSearch() {
 };
 
 btnSearch.addEventListener('click', inputSearch);
+
+
+searchField.addEventListener('keypress', (event) => {
+    if (event.key === 'Enter') {
+        inputSearch();
+    }
+});
