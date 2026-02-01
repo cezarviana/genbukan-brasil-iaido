@@ -1,14 +1,13 @@
-function articlesSearch() {
-    let section = document.getElementById("search-results");
+export async function articlesRender(searchTerm) {
 
-    let searchField = document.getElementById("search-field").value;
+    const section = document.getElementById("search-results");
 
-    if (searchField == "") {
-        section.innerHTML = "<p>Nenhum resultado foi encontrado. Você precisa digitar um termo, como: iaido, espada, katana, técnica, kata.</p>"
-        return
+    if (!searchTerm) {
+        section.innerHTML = "<p>Nenhum resultado foi encontrado. Você precisa digitar um termo, como: iaido, espada, katana, técnica, kata.</p>";
+        return;
     }
 
-    searchField = searchField.toLowerCase()
+    searchTerm = searchTerm.toLowerCase();
 
     let results = "";
     let title = "";
@@ -32,7 +31,7 @@ function articlesSearch() {
         link = article.link.toLowerCase()
         tags = article.tags.toLowerCase()
 
-        if (title.includes(searchField) || image.includes(searchField) || imageAlt.includes(searchField) || imageTitle.includes(searchField) || date.includes(searchField) || author.includes(searchField) || text.includes(searchField) || link.includes(searchField) || tags.includes(searchField)) {
+        if (title.includes(searchTerm) || image.includes(searchTerm) || imageAlt.includes(searchTerm) || imageTitle.includes(searchTerm) || date.includes(searchTerm) || author.includes(searchTerm) || text.includes(searchTerm) || link.includes(searchTerm) || tags.includes(searchTerm)) {
 
             results += `
             <div class="item-result">
@@ -45,13 +44,11 @@ function articlesSearch() {
                 <p class="article-link">${article.link}</p> 
             </div>
             `;
-
         }
-
     }
 
     if (!results) {
-        results = "<p>Nenhum resultado foi encontrado</p>"
+        results = "<p>Nenhum resultado foi encontrado</p>";
     }
 
     section.innerHTML = results;

@@ -45,7 +45,7 @@
 
         <section>
             <input type="text" placeholder="Digite um termo, iaido, katana" id="search-field">
-            <button onclick="articlesSearch()">Pesquisar</button>
+            <button id="btn-search" onclick="articlesSearch()">Pesquisar</button>
         </section>
 
         <section class="search-results" id="search-results"></section>
@@ -425,7 +425,7 @@
             </div>
         </section>
 
-         <section class="articles-sample">
+        <section class="articles-sample">
             <ul>
                 <li>
                     <a href="../articles/article1.html" class="article-title-link">
@@ -497,8 +497,7 @@
 
     <script type="text/javascript" src="../src/js/articles.js"></script>
 
-    <script type="text/javascript" src="../src/js/articles-search.js"></script>
-
+    <script type="module" src="../src/js/input-search.js"></script>
 </body>
 
 </html>
