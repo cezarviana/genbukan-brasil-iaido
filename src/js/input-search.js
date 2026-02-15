@@ -4,26 +4,43 @@ import { articlesRender } from './articles-render.js';
 
 const btnSearch = document.getElementById("btn-search");
 const searchField = document.getElementById("search-field");
-// const sectionResults = document.getElementById("search-results");
 
 async function inputSearch() {
     
     const searchTerm = searchField.value;
-    let articleModule = null;
-    let newsModule = null;
+    
 
-    try {
-        articleModule = await articlesRender(searchTerm);
-    } catch (error) {
-        console.error('Erro ao buscar dados (articles):', error);
-    }
-    try {
-        newsModule = await newsRender(searchTerm);
-    } catch (error) {
-        console.error('Erro ao buscar dados (news):', error);
+    const currentPage = window.location.pathname.toLowerCase();
+    const isArticlesPage = currentPage.includes('article');
+    const isNewsPage = currentPage.includes('news') && !currentPage.includes('article');
+
+
+    if (isArticlesPage) {
+        try {
+            const articlesResponse = await fetch('../src/data/articles.json');
+            const articlesJSON = await articlesResponse.json();
+            const articlesData = articlesJSON.articles;
+    
+            await articlesRender(searchTerm, articlesData);
+    
+        } catch (error) {
+            console.error('Erro ao buscar dados (articles):', error);
+        }
+    } 
+
+    else if (isNewsPage) {
+        try {
+            const newsResponse = await fetch('../src/data/news.json');
+            const newsJSON = await newsResponse.json();
+            const newsData = newsJSON.news
+    
+            await newsRender(searchTerm, newsData);      
+    
+        } catch (error) {
+            console.error('Erro ao buscar dados (news):', error);
+        }
     }
     
-    renderModules(articleModule, newsModule);
 };
 
 btnSearch.addEventListener('click', inputSearch);

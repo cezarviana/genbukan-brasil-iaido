@@ -1,5 +1,4 @@
-// 1. searchField entry
-export async function newsRender(searchTerm) {
+export async function newsRender(searchTerm, newsData) {
 
     const section = document.getElementById("search-results");
 
@@ -21,9 +20,9 @@ export async function newsRender(searchTerm) {
     let link = "";
     let tags = "";
 
-    newsS = newsS.reverse()
+    newsData = newsData.reverse()
 
-    for (let news of newsS) {
+    for (let news of newsData) {
         title = news.title.toLowerCase()
         image = news.image.toLowerCase()
         imageAlt = news.imageAlt.toLowerCase()
@@ -52,7 +51,7 @@ export async function newsRender(searchTerm) {
     }
 
     if (!results) {
-        results = "<p class='error'>Nenhum resultado foi encontrado</p>"
+        results = "<p>Nenhum resultado foi encontrado</p>";
     }
 
     section.innerHTML = results;

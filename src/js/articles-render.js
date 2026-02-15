@@ -1,4 +1,4 @@
-export async function articlesRender(searchTerm) {
+export async function articlesRender(searchTerm, articlesData) {
 
     const section = document.getElementById("search-results");
 
@@ -20,7 +20,7 @@ export async function articlesRender(searchTerm) {
     let link = "";
     let tags = "";
 
-    for (let article of articles) {
+    for (let article of articlesData) {
         title = article.title.toLowerCase()
         image = article.image.toLowerCase()
         imageAlt = article.imageAlt.toLowerCase()
